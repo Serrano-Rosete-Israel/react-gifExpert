@@ -4,7 +4,7 @@ import { GifGrid } from "./components/GifGrid";
 export const GifExpertApp = () =>{
  
     //uso de un hook 
-    const [categories, setCategories] = useState(['One punch']);
+    const [categories, setCategories] = useState(['']);
  
     const onAddCategory = (newCategory) =>{
       
